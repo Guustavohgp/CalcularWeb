@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <div class="buttons">
+            <button id="calcularBtn">Calcular</button>
+            <button id="calcularAreaBtn">Calcular Área</button>
+        </div>
+        
+        <!-- Área de entrada de dados para cálculo normal -->
+        <div id="calcularSection" class="hidden">
+            <input type="number" id="num1" placeholder="Primeiro número" step="0.01">
+            <select id="operacao">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="^">^</option>
+                <option value="√">√</option>
+            </select>
+            <input type="number" id="num2" placeholder="Segundo número" step="0.01">
+            <button id="executarCalculoBtn">Executar Cálculo</button>
+        </div>
+        
+        <!-- Área de entrada de dados para cálculo de área -->
+        <div id="calcularAreaSection" class="hidden">
+            <select id="forma">
+                <option value="circulo">Círculo</option>
+                <option value="quadrado">Quadrado</option>
+                <option value="retangulo">Retângulo</option>
+                <option value="triangulo">Triângulo Retângulo</option>
+            </select>
+            <input type="number" id="valor1" placeholder="Valor 1" step="0.01">
+            <input type="number" id="valor2" class="hidden" placeholder="Valor 2" step="0.01">
+            <button id="executarCalculoAreaBtn">Executar Cálculo de Área</button>
+        </div>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
