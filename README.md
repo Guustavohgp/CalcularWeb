@@ -13,6 +13,8 @@ A calculadora permite realizar as seguintes operações:
 - Exponenciação (`^`)
 - Radiciação (`√`)
 
+Não permite divisões com zero e aceita valores com `ponto 1.3` e com `vírgula 1,3`.
+
 ### Cálculo de Áreas de Formas Geométricas
 Além das operações matemáticas, a calculadora permite calcular a área de diferentes formas geométricas:
 - **Círculo** (com base no raio)
