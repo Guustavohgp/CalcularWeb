@@ -28,15 +28,6 @@ O projeto é organizado da seguinte maneira:
 ### Diagrama do Projeto
 
 ![alt text](image-6.png)
-## Estrutura do Projeto
-### O projeto contém os seguintes arquivos:
-
-**index.html**: Contém a estrutura HTML da calculadora, com seções dedicadas para o cálculo normal e para o cálculo de áreas de formas geométricas.
-
-**styles.css**: Define a aparência visual da calculadora, incluindo a disposição dos botões e o estilo da interface.
-
-**script.js**: Contém toda a lógica de funcionamento, incluindo o gerenciamento de eventos de clique, cálculos matemáticos e exibição dos resultados.
-Como Utilizar
 
 ## Tecnologias Utilizadas
 **HTML5**: Para a estruturação do conteúdo.
