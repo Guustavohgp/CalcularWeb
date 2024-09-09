@@ -30,11 +30,11 @@ O projeto é organizado da seguinte maneira:
 ![alt text](image-6.png)
 
 ## Tecnologias Utilizadas
-**HTML5**: Para a estruturação do conteúdo.
+* **HTML5**: Para a estruturação do conteúdo.
 
-**CSS3**: Para o estilo visual da aplicação.
+* **CSS3**: Para o estilo visual da aplicação.
 
-**JavaScript**: Para a lógica e interatividade.
+* **JavaScript**: Para a lógica e interatividade.
 
 ![alt text](image-5.png)
 
